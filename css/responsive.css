@@ -1,0 +1,166 @@
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+
+  .full-nav {
+    background: rgba(0, 0, 0, .8)
+  }
+
+  .main-nav .nav-item {
+    text-align: center;
+  }
+
+  .main-nav .nav-item .nav-link.active {
+    background: rgba(0, 0, 0, .9)
+  }
+
+  .bnr-content h1 {
+    font-size: 2rem;
+    padding: 30px 0;
+  }
+
+  .bnr-content .btn-1, .bnr-content .btn-2 {
+    font-size: 12px;
+    padding: .75rem 1rem;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  .abt-bg {
+    display: none;
+  }
+
+  .abt-content .btn {
+    margin-bottom: 20px;
+  }
+
+  #call-us {
+    padding: 40px 0;
+  }
+
+  #call-us h2 {
+    border: 7px double var(--brand-color);
+    border-radius: 25px 0 25px 0;
+    padding: 20px 10px;
+    font-family: var(--sub-title);
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+  }
+
+  #call-us span {
+    display: block;
+  }
+
+  #offer {
+    padding: 40px 15px;
+  }
+
+  .offer-item h3 {
+    padding-top: 20px;
+  }
+
+  .offer-btn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #gallery {
+    padding: 40px 0;
+  }
+
+  .full-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  #team {
+    padding: 40px 0;
+  }
+
+  #booking {
+    padding: 40px 15px 0 15px;
+  }
+
+  .top-btn {
+    font-size: 1.5em;
+    bottom: 1em;
+    right: 1em;
+    opacity: 0.6;
+  }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 991px) {
+   
+  .top-bar,
+  #navbarSupportedContent,
+  .main-nav .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .bnr-content img {
+    padding-top: 80px;
+  }
+
+ 
+  
+ }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  .bnr-content h1 {
+    font-size: 3.5rem;
+    padding: 30px 0;
+  }
+
+  .bnr-content .btn-1, .bnr-content .btn-2 {
+    padding: .5rem 1.25rem;
+    font-size: 18px;
+  }
+
+  .abt-bg {
+    right: -25px;
+    bottom: -5%;
+    max-width: 20%;
+  }
+
+  #call-us h2 {
+    font-size: 2rem;
+  }
+
+  #call-us span {
+    display: block;
+  }
+
+  .offer-btn {
+    margin-bottom: 40px;
+  }
+
+ }
+
+/* Large devices (desktops and laptop) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  #call-us h2 {
+    font-size: 2.5rem;
+  }
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1199px) {
+  .full-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+ }
